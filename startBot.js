@@ -22,6 +22,6 @@ Shamol tezligi: ${message.current.wind_speed}
     `));
     ctx.replyWithPhoto(String(weather.data.current.weather_icons))
 })
-
+let salom = salom.men(qannay)
 
 bot.launch()
